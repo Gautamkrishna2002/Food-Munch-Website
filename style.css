@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 90px;
+    width: 100%;
+    border: 2px solid;
+    background-color: rgb(194, 173, 246);
+    box-shadow: 0 3px 8px;
+    display: flex;
+    position: fixed;
+     top: 0;
+}
+.logo{
+    height: 80%;
+    width: 12%;
+    border: 2px solid;
+    margin: 0.5% 0% 0% 2%;
+    background-image: url("https://cdn.dribbble.com/userupload/12943739/file/original-be224e71e2c03dfcc101a8c92bd311c1.jpg?resize=752x&vertical=center");
+    background-size:cover;
+}
+.nav-header{
+    margin: 2% 0 0 3%;
+  
+    width: 10%;
+}
+#menu{
+    height: 50%;
+    width: 60%;
+    border-radius: 8px;
+    margin-top: 3%;
+    border: 2px solid;
+    border-color: rgb(245, 225, 8);
+    color:black;
+    font-weight: 600;
+
+}
+
+#Loc{
+    margin: 2% 0% 0% 50%;
+    height: 37%;
+    width: 20%;
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: rgb(245, 225, 8);
+    color: black;
+    font-weight: 600; 
+
+}
+
+main{
+    height: 600px;
+    width: 100%;
+    margin: 90px 0 0 0;
+    background-image: url(https://www.posist.com/restaurant-times/wp-content/uploads/2016/12/restaurant-delivery-orders-1024x683.jpg);
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-button{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.b{
+    height: 40px;
+    width: 150px;
+    font-size: x-large;
+    background-color: rgb(229, 182, 11);
+    border-radius: 10px;
+    color: white;
+    border-color:yellow ;
+
+}
+.bb{
+    height: 40px;
+    width: 150px;
+    font-size: x-large;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    border-color:yellow ;
+}
+.menu-card{
+    height: 400PX;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin: 90px 0 0 0;
+
+}
+
+.card{
+    height: 95%;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px grey,-8px -8px 8px grey;
+    
+    
+}
+
+.card-img{
+    height: 60%;
+    width: 90%;
+    margin: 4% 0 0 5%;
+}
+.card-caption{
+    padding: 0 0 0 7% !important;
+    margin: 0 0 0 24%;    
+}
+.card>p{
+    padding:2% 0 0 5%;
+    font-weight: 700;
+    font-size: 20px;
+}
+.card-captions{
+    padding: 0 0 0 7% !important;
+    margin: 0 0 0 32%;
+}.card-caption-d{
+    padding: 0 0 0 7% !important;
+    margin: 0 0 0 22%;
+}
+.map-feedback{
+    height: 700px;
+    width: 100%;
+    margin: 70px 0 0 0;
+    display: flex;
+}
+.map{
+    height: 80%;
+    width: 40%;
+    margin: auto;
+    box-shadow: 2px 2px 8px,-2px -2px 8px ;
+
+}
+.outerfeedback{
+    height: 80%;
+    width: 40%;
+    border: 2px solid;
+    margin: auto;
+    text-align: left;
+    box-shadow: 2px 2px 8px,-2px -2px 8px ;
+}
+.feedbackform{
+    height: 100%;
+    width: 80%;
+    
+    margin: auto;
+    text-align: left;
+   
+    
+
+}
+
+.gift{
+    height: 550px;
+    width: 100%;
+    background-image: radial-gradient(  rgb(235, 8, 8) ,rgb(30, 175, 232));
+    display: flex;
+
+}
+.gifttext{
+    height: 50%;
+    width: 30%;
+    margin: auto;
+    padding: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+}
+.giftimg{
+    height: 60%;
+    width: 30%;
+    margin: auto ;
+    
+
+    
+}
+.Reedem{
+    height: 12%;
+    width: 30%;
+    border-radius: 10px;
+    background-image: linear-gradient(  rgb(177, 15, 15) ,rgb(75, 48, 186));
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.giftImg{
+    height:300px ;
+    margin-left: 25%;
+    margin-bottom: 15%;    
+}
+.voucher{
+    height: 670px;
+    width: 35%;
+    border: 1px solid rgb(199, 197, 197);
+    border-radius: 10px;
+    background-color: white;
+     position: fixed;
+     top: 7%;
+     left: 30%;
+     display: none ;
+     
+}
+.close-voucher{
+    height:10px;
+    width: 100%;
+    margin: 4% 0 0 0;
+    display: flex;
+
+
+}
+.X{
+    height: 20px;
+    width: 18px;
+    margin: 0 0 0 68%;
+    background-color: white;
+    border: none;
+}
+h3{
+    margin: 0 0 0 7%;
+}
+.gift-voucher{
+
+}
+#gift-voucher{
+    height: 550px;
+    width: 80%;
+    margin: 6% 0 0 10%;
+
+
+}
+hr{
+    width: 99.8%;
+    margin: 0 0 0 0.1%;
+    border: 1% SOLID rgb(160, 160, 160);
+}
+.testimonial{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid; */
+    margin: 0.1% 0 0 0 ;
+}
+.testimonial-card{
+    height: 75%;
+    width: 80%;
+    border: 2px solid;
+    margin: 4% 0 0 10%;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray, -3px -3px 5px gray;
+    background-color: azure;
+    
+}
+.testimonial-img{
+    height: 40%;
+    width: 10%;
+    /* border: 2px solid; */
+    border-radius: 100%;
+    margin: 7% 0 0 5%;
+    background-image: url(https://lh3.googleusercontent.com/a/ACg8ocLtK48dUvf50zpzJXIdLH3OBpjlb68I1bzQNoWXhNIe8z9-UQ=s360-c-no);
+    background-size: cover;
+}
+.testimonial-text{
+    height: 80%;
+    width: 50%;
+    /* border: 2px solid; */
+    margin: 2.5% 0 0 20%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 5% ;
+
+
+}
+.ratingstar{
+    margin: 20% 0 0 60%;
+}
+
+
+
+
+
+
+footer{
+    height: 200px;
+    width: 100%;
+    /* border: 2px solid; */
+}

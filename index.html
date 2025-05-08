@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    
+    <header>
+        <div class="logo">
+
+        </div>
+  
+        <nav class="nav-header">
+            <select name="menu" id="menu" class="menu">
+                <option value="">
+                    <h1>Menu</h1>
+                </option>
+                <option value="Veg"> <a href="veg.html"></a>Veg</option>
+                <option value="Non-Veg">Non-Veg</option>
+            </select>
+
+        </nav>
+
+        <select name="Location" id="Loc">
+            <option value="">Location</option>
+            <option value="Pune">Pune</option>
+            <option value="Mumbai">Lucknow</option>
+        </select>
+    </header>
+
+   
+    <main>
+        <div>
+        </div>
+        <div class="main-button">
+            <button class="b">View Menu</button>
+            <button class="bb">Order Now</button>
+
+        </div>
+
+    </main>
+    <div class="menu-card">
+        <div class="card">
+            <h2 class="card-captions">VEG</h2>
+            <a href="veg.html" target="_blank"><img
+                    src="https://hokparty.in/wp-content/uploads/2024/11/veg-thali.png" alt=""
+                    class="card-img"></a>
+            <p>Starting From 199 Only</p>
+
+        </div>
+        <div class="card">
+            <h2 class="card-caption">NON-VEG</h2>
+         <a href="non-veg.html" target="_blank"><img src="https://thumbs.dreamstime.com/b/indian-non-vegetarian-meal-punjabi-platter-indian-meal-consisting-butter-chicken-curry-rajma-masala-chicken-curry-chicken-112712579.jpg" alt=""
+                class="card-img"></a>
+            
+            <p>Starting From 299 Only</p>
+
+        </div>
+        <div class="card">
+            <h2 class="card-caption-d">DESSERTS</h2>
+            <a href="dessert.html" target="_blank"><img src="https://images.immediate.co.uk/production/volatile/sites/30/2023/10/Pistachio-tiramisu-6d3d0da.jpg" alt=""
+                class="card-img"></a>
+            
+            <p>Starting From 99 Only</p>
+        </div>
+
+    </div>
+    <div class="map-feedback">
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241316.7017667308!2d72.71412853625739!3d19.082482211822246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1745399079756!5m2!1sen!2sin"
+                width="604" height="554" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+        <div class="outerfeedback">
+        <div class="feedbackform">
+            <div class="center">
+                <form method="post">
+                    <h2>Review</h2>
+                    <br>
+                    <input type="text" name="First Name" placeholder="First Name"><br><br>
+                    <input type="email" name="Email" p><br><br>
+                    <Label>Gender</Label>
+                    <input type="radio" name="Gender" value="mr">Male
+                    <input type="radio" name="Gender" value="mrs">Female <br><br>
+                  
+                    <input type="date" name="DOB"><br><br><br>
+                    <label>Address</label><br>
+                    <textarea name="Address" cols="40" rows="6"></textarea><br><br>
+                    <label>Contry</label><br>
+                    <select>
+                        <optgroup label="Asia">
+                            <option value="IND">INDIA
+                            </option>
+                            <option value="CH">CHINA
+                            </option>
+                        </optgroup>
+                    </select><br>
+                        <br>
+                        <label>Comment</label><br>
+                    <textarea name="Comment" cols="40" rows="6"></textarea><br>
+
+                        <input type="submit" value="Signup">
+                        <input type="Reset">
+
+
+                    
+
+                </form>
+            </div>
+
+        </div>
+        </div>
+
+    </div>
+
+    <div class="gift">
+        <div class="gifttext">
+            <h1>Thank you for being a valuable customer to us.</h1>
+            <p>We have a surprise gift for you
+
+            </p>
+            <button class="Reedem" onclick="openvocher()">Reedem gift</button>
+
+
+        </div>
+        <div class="giftimg">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png"
+                alt="" class="giftImg">
+
+        </div>
+
+    </div>
+    <div class="voucher" id="giftbox">
+        <div class="close-voucher">
+            <h3>Gift Voucher</h3>
+
+            <button class="X" onclick="closevoucher()"> X</button>
+
+
+        </div>
+        <br>
+        <hr>
+
+
+        <div class="gift-voucher">
+
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/gift-voucher-img.png" alt=""
+                id="gift-voucher">
+
+        </div>
+
+
+    </div>
+
+
+    <div class="testimonial">
+        <div class="testimonial-card">
+            <div class="testimonial-img">
+                <img src="" alt="">
+            </div>
+            <div class="testimonial-text">
+                <p>"Delicious Food &hearts; &hearts; &hearts; "</p>
+                <div class="ratingstar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke" class="ratingstar"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+
+
+    <script>
+        function openvocher() {
+            document.getElementById("giftbox").style.display = "block";
+        }
+        function closevoucher() {
+            document.getElementById("giftbox").style.display = "none";
+
+        }
+
+    </script>
+
+</body>
+
+</html>
